@@ -1,0 +1,13 @@
+name: KumoSimulation
+version: '${project.version}'
+main: com.github.kumo0621.kumosimulation.KumoSimulation
+api-version: 1.16
+commands:
+  KumoSimulation:
+    aliases: sentaku
+    permission: KumoSimulation
+
+permissions:
+  KumoSimulation:
+    default: op
+
